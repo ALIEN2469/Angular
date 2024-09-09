@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    font-family: Oswald, Arial;
+}
+h2,h3{
+    color: green;
+}
+h1{
+    color: white;
+}
+p {
+    font-size: 16px;
+    font-family: Raleway, Arial;
+}
+
+.photo {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: justify;
+    color: white;
+}
+
+.text {
+    font-family: Arial;
+    font-size: 16px;
+    color: blue;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+
+.sidebar {
+    font-family: Arial;
+    font-size: 12px;
+    color:#000;
+    padding-top: 25px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+.top {
+    background-color: #333;
+}
+
+.bottom {
+    background-color: red;
+    width: 75%;
+    float: left
+}
+
+.bottom-right {
+    background-color: blue;
+    width: 25%;
+    float: left;
+
+}
+img{
+    max-width: 75%;
+    height: auto;
+    float: left;
+}
+.photo-container {
+    padding: 200px 50px 50px 0px;
+    margin-bottom: 50px;
+}
